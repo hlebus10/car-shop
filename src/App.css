@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'PT Serif', sans-serif;
+    background: linear-gradient(to right, rgb(128, 128, 128), rgb(0, 29, 57));
+    background-repeat: no-repeat;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+
+  p {
+    color: white;
+  }
+
+  h1 {
+    color: silver;
+  };
+
+  h3 {
+    color: white;
+  }
+
+  h4 {
+    color: #333;
+  }
